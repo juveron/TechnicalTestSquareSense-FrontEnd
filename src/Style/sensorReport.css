@@ -1,0 +1,18 @@
+.box-body-sensor-report {
+	padding: 60px;
+}
+
+.text-sensor-report {
+	margin-top: 75px;
+}
+
+.box-text-sensor-report {
+	width: 528px;
+	height: 164px;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	background: lightgray;
+	position: absolute;
+	right: 277px;
+}
+

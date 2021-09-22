@@ -110,6 +110,5 @@ dist
 yarn.lock
 yarn-error.log
 
-
 # Macos files
 .DS_Store

@@ -1,20 +1,71 @@
 .center {
 	margin: auto;
 	max-width: 640px;
-	border: 5px solid #FFFF00;
 	padding: 10px;
 	display: flex;
 
 }
 
+.body {
+	padding: 60px;
+}
+
 .box-text {
-	margin-top: 10px;
+	position: relative;
+	margin-left: 102px;
+	right: -24px;
+}
+
+.text {
+	margin-top: 8px;
 }
 
 .input-bar {
 	height: 34px;
-	width: 338px;
+	width: 289px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: white;
+	margin-left: 64px;
 }
 
 .box-input-bar {
+	position: absolute;
+	right: 361px;
+}
+
+.test {
+	width: 223px;
+	height: 25px;
+	position: relative;
+	right: 222px;
+	top: 4px;
+	border: 1px solid lightgray;
+}
+
+.test-toogle {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	right: -30px;
+	top: 8px;
+}
+
+.test-div-box {
+	width: 259px;
+	height: 25px;
+	border-radius: 10px;
+	border: 1px solid black;
+	position: absolute;
+	right: -40px;
+	top: 4px;
+}
+
+.test-text {
+	margin-top: 4px;
+	margin-right: 150px;
+}
+
+.test-text-toogle {
+	margin: auto 228px auto auto;
 }

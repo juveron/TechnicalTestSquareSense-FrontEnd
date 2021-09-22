@@ -2,7 +2,7 @@ import '../Style/title.css'
 
 const Title = () => {
 	return (
-		<div className="box">
+		<div className="box-title">
 			<h3 className="title">
 				Meeting room occupancy
 			</h3>

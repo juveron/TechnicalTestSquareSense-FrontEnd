@@ -1,8 +1,10 @@
 .title {
-	text-decoration: underline
+	text-decoration: underline;
+	font-size: xx-large;
 }
 
 
-.box-bar {
-	margin-left: 50%;
+
+.box-title {
+	padding: 10px;
 }
