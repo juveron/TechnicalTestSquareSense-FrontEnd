@@ -5,3 +5,9 @@
 	display: block;
 	padding: 60px;
 }
+
+.icon {
+	position: relative;
+	right: 8px;
+	top: -2px;
+}

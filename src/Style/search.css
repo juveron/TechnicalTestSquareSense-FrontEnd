@@ -47,7 +47,9 @@
 	height: 20px;
 	position: relative;
 	left: 230px;
+	background: white;
 	bottom: 24px;
+	border: none;
 
 }
 
@@ -61,7 +63,7 @@
 
 .test-text {
 	margin-top: 4px;
-	margin-right: 150px;
+	margin-left: 5px;
 }
 
 .test-text-toogle {
