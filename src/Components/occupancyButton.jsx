@@ -1,9 +1,9 @@
-const OccupancyButton = (displayReportResult) => {
-	return (
-		<div>
-			<button {...displayReportResult}/>
-		</div>
-	)
-}
-
-export default OccupancyButton;
+// const OccupancyButton = (displayReportResult) => {
+// 	return (
+// 		<div>
+// 			<button {...displayReportResult}/>
+// 		</div>
+// 	)
+// }
+//
+// export default OccupancyButton;
