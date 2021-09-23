@@ -16,12 +16,12 @@ const HomeComponent = () => {
 	const request = 'http://localhost:8080/api/occupancy'
 	const room = ['room1', 'room2', 'room3']
 	const roomSelected = (sensorName === room[0]) ? room[0] : (sensorName === room[1]) ? room[1] : (sensorName === room[2]) ? room[2] : room[0]
-	const sensor = useFetch(`${request}${query}${roomSelected}`);
+	const inside = useFetch(`${request}${query}${roomSelected}`);
 	const DisplayOccupancy = () => {
 		if (sensorName === 'Sensor XYZ')
 			setErrorDisplay('Please select a room to see the sensor reports room');
 		else setErrorDisplay(null);
-		setItem(sensor)
+		setItem(inside)
 		setDisplayReportResult(true)
 	}
 
