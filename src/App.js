@@ -1,13 +1,10 @@
-import './App.css';
-import Home from "./Page/home";
+// import './App.css';
+// import Home from "./Page/home";
+import HomeComponent from "./Components/homeComponent";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <Home />
-    </div>
+      <HomeComponent />
   );
 }
 

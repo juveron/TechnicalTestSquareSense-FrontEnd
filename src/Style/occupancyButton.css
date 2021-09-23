@@ -1,10 +1,14 @@
 .box-body-button {
-	padding: 60px;
+	padding: 30px;
 }
 
 .text-button {
 	margin-top: 5px;
 	font-size: large;
+}
+
+.box-box-button {
+	text-align: center;
 }
 
 .button {

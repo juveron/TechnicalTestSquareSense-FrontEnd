@@ -3,17 +3,15 @@
 	max-width: 640px;
 	padding: 10px;
 	display: flex;
-
+	flex-direction: initial;
 }
 
-.body {
-	padding: 60px;
+.box-body-search {
+	padding: 30px;
 }
 
 .box-text {
-	position: relative;
-	margin-left: 102px;
-	right: -24px;
+	margin-left: 16%;
 }
 
 .text {
@@ -30,16 +28,17 @@
 }
 
 .box-input-bar {
-	position: absolute;
-	right: 361px;
+	margin-left: 8%;
 }
 
 .test {
 	width: 223px;
 	height: 25px;
 	position: relative;
-	right: 222px;
-	top: 4px;
+	top: 6px;
+	right: 223px;
+	display: block;
+
 	border: 1px solid lightgray;
 }
 
@@ -47,8 +46,9 @@
 	width: 20px;
 	height: 20px;
 	position: relative;
-	right: -30px;
-	top: 8px;
+	left: 230px;
+	bottom: 24px;
+
 }
 
 .test-div-box {
@@ -56,9 +56,7 @@
 	height: 25px;
 	border-radius: 10px;
 	border: 1px solid black;
-	position: absolute;
-	right: -40px;
-	top: 4px;
+
 }
 
 .test-text {

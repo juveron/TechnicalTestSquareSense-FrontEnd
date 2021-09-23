@@ -1,9 +1,10 @@
 .box-body-sensor-report {
-	padding: 60px;
+	padding: 30px;
 }
 
 .text-sensor-report {
-	margin-top: 75px;
+	text-align: center;
+	margin-top: 70px;
 }
 
 .box-text-sensor-report {
@@ -12,7 +13,11 @@
 	border-radius: 10px;
 	border: 1px solid darkgray;
 	background: lightgray;
-	position: absolute;
-	right: 277px;
+	margin: 0 auto;
 }
 
+/*@media screen and (min-width: 1600px){*/
+/*	.box-text-sensor-report {*/
+/*		right: 688px;*/
+/*	}*/
+/*}*/
