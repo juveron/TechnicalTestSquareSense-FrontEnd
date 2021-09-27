@@ -19,7 +19,7 @@ import Triangle from "./icon/triangle";
 	const room = ['room1', 'room2', 'room3']
 	const roomSelected = (sensorName === room[0]) ? room[0] : (sensorName === room[1]) ? room[1] : (sensorName === room[2]) ? room[2] : 0
 
-	function getTotalOfPeople() {
+	const getTotalOfPeople = () => {
 		if (sensorName === 'Sensor XYZ')
 			setErrorDisplay('Please select a room to see the sensor reports room');
 		else setErrorDisplay(null);
